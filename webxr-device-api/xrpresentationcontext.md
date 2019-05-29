@@ -18,56 +18,12 @@ None.
 The following example uses an instance of `XRPresentationContext` to query an XRDevice object for session support. Though this code tries to convey something of the full context where the interface is used, getting and using it comes down to this:
 
 ```javascript
-xrPresentationContext = htmlCanvasElement.getContext('xrpresent');
-xrSessionOptions = {
-  immersive: true,
-  outputContext: xrPresentationContext
-}
-xrDevice.supportsSession(xrSessionOptions)
-.then(() => {
-  // Do something else.
-}0;
-```
-
-Here's the full example.
-
-```javascript
-let xrDevice = null;
-let xrSessionOptions = null;
-const htmlCanvasElement = document.querySelector("#vr");
-const button = document.querySelector("#enterVR");
-button.addEventListener('click', _enterVR);
-button.style.display = "none";
-
-navigator.xr.requestDevice()
-.then(device => {
-  if (device) {
-    xrDevice = device;
-    xrPresentationContext = htmlCanvasElement.getContext('xrpresent');
-    xrSessionOptions = {
-      immersive: true,
-      outputContext: xrPresentationContext
-    }
-    xrDevice.supportsSession(xrSessionOptions)
-    .then(() => {
-      // Immersive sessions require a user gesture to enter AR/VR. Now that we
-      // know we can get a session, show the 'Enter VR' button.
-      button.style.display = "block";
-    })
-  }
-});
-
-function _enterVR() {
-  xrDevice.requestSession(xrSessionOptions)
-  .then(session => {
-    // Continue on to the event loop.
-  });
-}
+  // need code
 ```
 
 # Specifications
 
-[XRFrameOfReference Interface](https://immersive-web.github.io/webxr/spec/latest/#xrpresentationcontext)
+[XRPresentationContext Interface](https://www.w3.org/TR/webxr/#xrpresentationcontext-interface)
 
 ## Browser Compatibility
 

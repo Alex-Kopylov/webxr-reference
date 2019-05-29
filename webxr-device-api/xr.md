@@ -1,6 +1,6 @@
 # XR
 
-The **`XR`** interface of the of the WebXR API provides the means to query for attached AR/VR devices and receive events when device availability changes. A requested device is accessed through a returned <a href="xrdevice">XRDevice</a> object.
+The **`XR`** interface of the of the WebXR API provides methods for obtaining an XRSession object. Once a session is obtained, subsequent interactions with the hardware are done through it.
 
 ## Properties
 
@@ -10,32 +10,43 @@ None.
 
 <dl>
   <dt>ondevicechange</dt>
-  <dd>Called with a standard Event whenever device availability changes. To get a reference to the device, call <code>requestDevice()</code>. </dd>
+  <dd>Called with a standard Event whenever device availability changes. </dd>
 </dl>
 
 ## methods
 
 <dl>
-  <dt>requestDevice()</dt>
-  <dd>Returns a \{\{jsxref("Promise")\}\} that resolves with an <a href="xrdevice">XRDevice</a> object that provides information about an AR/VR device and methods for obtaining an <a href="xrsession.md">XRSession</a> object.</dd>
+  <dt>supportsSession(options)</dt>
+  <dd>Returns an empty promise that resolves if the requested session mode is available from the device. Valid options are
+  <ul>
+    <li><code>"inline"</code>: 
+    <li><code>"immersive-vr"</code>: </li>
+    <li><code>"immersive-ar"</code>: </li>
+  </ul>
+  </dd>
+  <dt>requestSession(options)</dt>
+  <dd>Returns a \{\{jsxref("Promise")\}\} that resolves with an <a href="xrsession">XRSession</a> object 
+  Valid options are
+  <ul>
+    <li><code>"inline"</code>: 
+    <li><code>"immersive-vr"</code>: </li>
+    <li><code>"immersive-ar"</code>: </li>
+  </ul></dd>
 </dl>
 
 ## Examples
 
-The following example uses the `ondevicechange` event to discover when a new device is available, then calls `requestDevice()` to retrieve it.
+The following example uses the `ondevicechange` event to .
 
 ```javascript
 navigator.xr.addEventListener('devicechange', () => {
-  navigator.xr.requestDevice()
-  .then(device => {
-    // device is of type XRDevice. Use it to get an XRSession object.
-  })
+  // Fill in
 })
 ```
 
 ## Specifications
 
-[XR Interface](https://immersive-web.github.io/webxr/spec/latest/#xr-interface)
+[XR Interface](https://www.w3.org/TR/webxr/#xr-interface)
 
 ## Browser Compatibility
 

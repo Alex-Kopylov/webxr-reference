@@ -9,18 +9,17 @@ The **`XRView`** interface of the of the WebXR API describes a single view into 
   <dd>TBD</dd>
   <dt>projectionMatrix</dt>
   <dd>TBD</dd>
+  <dt>transform</dt>
+  <dd>TBD</dd>
 </dl>
 
 ## Methods
 
-<dl>
-  <dt>layer</dt>
-  <dd>TBD</dd>
-</dl>
+None.
 
 ## Specifications
 
-[XRView Interface](https://immersive-web.github.io/webxr/spec/latest/#xrview-interface)
+[XRView Interface](https://www.w3.org/TR/webxr/#xrview-interface)
 
 ## Browser Compatibility
 

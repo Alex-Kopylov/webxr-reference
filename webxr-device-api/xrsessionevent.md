@@ -22,7 +22,7 @@ None.
 
 ## Specifications
 
-[XRSessionEvent Interface](https://immersive-web.github.io/webxr/spec/latest/#xrsessionevent-interface)
+[XRSessionEvent Interface](https://www.w3.org/TR/webxr/#xrsessionevent-interface)
 
 ## Browser Compatibility
 

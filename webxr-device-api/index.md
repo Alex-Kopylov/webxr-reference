@@ -57,13 +57,11 @@ Some WebXR objects return data in the form of matrices. WebXR matrices are alway
 
 ## WebVR Device Interfaces
 
-### Device Enumeration
+### TBD
 
 <dl>
   <dt><a href="xr">XR</a></dt>
   <dd>Provides the means to query for attached AR/VR devices and receive events when device availability changes. A requested device is accessed through a returned `XRDevice` object.</dd>
-  <dt><a href="xrdevice">XRDevice</a></dt>
-  <dd>Represents a single AR/VR hardware device and provides methods for obtaining an `XRSession` object</dd>
 </dl>
 
 ### Sessions
@@ -71,6 +69,8 @@ Some WebXR objects return data in the form of matrices. WebXR matrices are alway
 <dl>
   <dt><a href="xrsession">XRSession</a></dt>
   <dd>Provides the means to interact with an AR/VR device, providing features such as polling the device pose, getting information about the user's environment, and presenting imagery to the user.</dd>
+  <dt>XRRenderState</dt>
+  <dd>TBD</dd>
   <dt><a href="xrsessionevent">XRSessionEvent</a></dt>
   <dd>The event type passed to all of the `XRSession` events, specifically, `onblur`, `onfocus`, `onresetpose`, and `onend`.</dd>
 </dl>
@@ -82,18 +82,16 @@ Some WebXR objects return data in the form of matrices. WebXR matrices are alway
   <dd>Provides all of the values needed to render a single frame of an AR/VR scene to the display represented by the `XRDevice` interface.</dd>
 </dl>
 
-### Coordinate Systems
+### Spaces
 
 <dl>
-  <dt><a href="xrcoordinatesystem">XRCoordinateSystem</a></dt>
+  <dt>XRSpace</dt>
   <dd>TBD</dd>
-  <dt><a href="xrcoordinatesystemevent">XRCoordinateSystemEvent</a></dt>
+  <dt>XRReferenceSpace</dt>
   <dd>TBD</dd>
-  <dt><a href="xrframeofreference">XRFrameOfReference</a></dt>
-  <dd>Provides information about the spatial point from which AR/VR measurements are made.</dd>
-  <dt><a href="xrstagebounds">XRStageBounds</a></dt>
+  <dt>XRBoundedReferenceSpace</dt>
   <dd>TBD</dd>
-  <dt><a href="xrstageboundspoint">XRStageBoundsPoint</a></dt>
+  <dd>XRReferenceSpaceEvent</dt>
   <dd>TBD</dd>
 </dl>
 
@@ -109,8 +107,10 @@ Some WebXR objects return data in the form of matrices. WebXR matrices are alway
 ### Poses
 
 <dl>
-  <dt><a href="xrdevicepose">XRDevicePose</a></dt>
-  <dd>Describes the position and orientation of an <a href="xrdevice">XRDevice</a> relative to the <a href="xrcoordinateSystem">XRCoordinateSystem</a> it was queried with. It also describes the view and projection matrices that should be used by the application to render a frame of an AR/VR scene.</dd>
+  <dt><a href="xrpose">XRPose</a></dt>
+  <dd>TBD</dd>
+  <dt><a href="xrviewerpose">XRViewerPose</a></dt>
+  <dd>TBD</dd>
 </dl>
 
 ### Input
@@ -118,8 +118,8 @@ Some WebXR objects return data in the form of matrices. WebXR matrices are alway
 <dl>
   <dt><a href="xrinputsource">XRInputSource</a></dt>
   <dd>Returns information about the Web AR/VR control device being used. The control device is platform-specific and defines a primary action. A primary action is a trigger, touchpad, button, spoken command, or hand gesture that when performed produces selectstart, selectend, and select events.</dd>
-  <dt><a href="xrinputpose">XRInputPose</a></dt>
-  <dd>Returns information about the pose (position) of the input device in 3D space.</dd>
+  <dt>XRInputSourceEvent<dt>
+  <dd>TBD</dd>
 </dl>
 
 ### Layers
@@ -138,6 +138,20 @@ Some WebXR objects return data in the form of matrices. WebXR matrices are alway
   <dd>A wrapper object for the \{\{domxref("HTMLCanvasElement")\}\} object on which AR or VR content will be drawn. To retrieve an instance of this object, call `getContext()` on a canvas object with the value `'xrpresent'`.</dd>
 </dl>
 
+### Transforms
+
+<dl>
+  <dt>XRRigidTransform</dt>
+  <dd></dd>
+</dl>
+
+### Rays
+
+<dl>
+  <dt>XRRay</dt>
+  <dd></dd>
+</dl>
+
 ### Partial Interfaces
 
 <dl>
@@ -145,6 +159,10 @@ Some WebXR objects return data in the form of matrices. WebXR matrices are alway
   <dd>Returns a new XR object.</dd>
   <dt><a href="partial_webglcontextattributes">WebGLRenderingContex.setCompatibleXRDevice()</a></dt>
   <dd>Sets an <a href="xrdevice">XRDevice</a> after a presentation context has been created.</dd>
+  <dt>WebGLRenderingContextBase.makeXRCompatible</dt>
+  <dd>TBD</dd>
+  <dt>window.XRPresentationContext</dt>
+  <dd>TBD</dd>
 </dl>
 
 ## Examples

@@ -4,7 +4,7 @@ The <strong><code>XRWebGLLayer</code></strong> constructor creates a new {{domxr
 
 ## Syntax
 
-<pre class="syntaxbox">var <var>xrWebGLLayer</var> = new XRWebGLLayer(<var>session</var>, <var>context</var>[, <var>options</var>])</pre>
+<pre class="syntaxbox">var <var>xrWebGLLayer</var> = new XRWebGLLayer(<var>session</var>, <var>context</var>[, <var>layerInit</var>])</pre>
 
 ### Parameters
 
@@ -13,14 +13,14 @@ The <strong><code>XRWebGLLayer</code></strong> constructor creates a new {{domxr
   <dd>TBD</dd>
  <dt><em>context</em></dt>
  <dd></dd>
- <dt><em>options</em> {{optional_inline}}</dt>
+ <dt><em>layerInit</em> {{optional_inline}}</dt>
  <dd> Options are as follows:
  <ul>
   <li><code>antialias</code>: TBD The default is <code>true</code>.</li>
   <li><code>depth</code>: TBD The default is <code>true</code>.</li>
   <li><code>stencil</code>: TBD The default is <code>false</code>.</li>
   <li><code>alpha</code>: TBD The default is <code>true</code>.</li>
-  <li><code>multiview</code>: TBD The default is <code>false</code>.</li>
+  <li><code>ignoreDepthValues</code>: TBD The default is <code>false</code>.</li>
   <li><code>framebufferScaleFactor</code>: Indicates the desired frame buffer scale. The default is 1.</li>
  </ul>
  </dd>
@@ -28,7 +28,7 @@ The <strong><code>XRWebGLLayer</code></strong> constructor creates a new {{domxr
 
 ## Specifications
 
-[XRWebGLLayer Interface](https://immersive-web.github.io/webxr/spec/latest/#dom-xrwebgllayer-xrwebgllayer)
+[XRWebGLLayer Interface](https://www.w3.org/TR/webxr/#xrwebgllayer-interface)
 
 ## Browser Compatibility
 

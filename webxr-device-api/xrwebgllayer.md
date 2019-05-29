@@ -18,18 +18,6 @@ The **`XRWebGLLayer`** interface of the WebXR API is an <a href="xrlayer">XRLaye
   <dt>antialias \{\{readonlyinline\}\}</dt>
   <dd>Indicates whether the current layer supports antialiasing which helps smooth an image by reducing its jagged edges.</dd>
 
-  <dt>depth \{\{readonlyinline\}\}</dt>
-  <dd>TBD</dd>
-
-  <dt>stencil \{\{readonlyinline\}\}</dt>
-  <dd>TBD</dd>
-
-  <dt>alpha \{\{readonlyinline\}\}</dt>
-  <dd>TBD</dd>
-
-  <dt>multiview \{\{readonlyinline\}\}</dt>
-  <dd>TBD</dd>
-
   <dt>framebuffer \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
 
@@ -38,11 +26,17 @@ The **`XRWebGLLayer`** interface of the WebXR API is an <a href="xrlayer">XRLaye
 
   <dt>framebufferHeight \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
+
+  <dt>ignoreDepthValue \{\{readonlyinline\}\}</dt>
+  <dd>TBD</dd>
 </dl>
 
 ## Methods
 
 <dl>
+  <dt>getViewport</dt>
+  <dd>TBD</dd>
+
   <dt>getNativeFramebufferScaleFactor()</dt>
   <dd>For a specified <a href="xrsession">XRSession</a> object, returns the value that it's recommended WebGL frame buffer resolution must be multiplied by to yield it's native WebGL frame buffer resolution.</dd>
 
@@ -77,7 +71,7 @@ xrDevice.requestSession(sessionOptions)
 
 ## Specifications
 
-[XRWebGLLayer Interface](https://immersive-web.github.io/webxr/spec/latest/#xrwebgllayer-interface)
+[XRWebGLLayer Interface](https://www.w3.org/TR/webxr/#xrwebgllayer-interface)
 
 ## Browser Compatibility
 
