@@ -4,15 +4,19 @@ The **`XRReferenceSpace`** interface of the WebXR Device API provides
 
 ## Properties
 
+None.
+
+### Events
+
 <dl>
-  <dt>TBD</dt>
+  <dt>onreset</dt>
   <dd>TBD</dd>
 </dl>
 
 ## Methods
 
 <dl>
-  <dt>TBD()</dt>
+  <dt>getOffsetReferenceSpace()</dt>
   <dd>TBD</dd>
 </dl>
 

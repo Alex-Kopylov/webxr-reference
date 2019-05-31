@@ -4,17 +4,11 @@ The **`XRSpace`** interface of the WebXR Device API provides
 
 ## Properties
 
-<dl>
-  <dt>TBD</dt>
-  <dd>TBD</dd>
-</dl>
+None.
 
 ## Methods
 
-<dl>
-  <dt>TBD()</dt>
-  <dd>TBD</dd>
-</dl>
+None.
 
 ## Examples
 

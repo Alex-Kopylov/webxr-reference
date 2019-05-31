@@ -1,6 +1,6 @@
 # XRSession
 
-The **`XRSession`** interface of the WebXR API provides the means to interact with an AR/VR device, providing features such as polling the device pose, getting information about the user's environment, and presenting imagery to the user.
+The **`XRSession`** interface of the WebXR API provides the means to interact with an AR/VR device, providing features such as polling the viewer space (device pose), getting information about the user's environment, and presenting imagery to the user.
 
 ## Properties
 
@@ -14,11 +14,11 @@ The **`XRSession`** interface of the WebXR API provides the means to interact wi
   </ul>
   </dd>
 
-  <dt>renderState</dt>
-  <dd>TBD</dd>
+  <dt><a href="getinputsources">inputSources</a></dt>
+  <dd>Returns an <a href="xrinputsource">XRInputSourceArray</a> object representing tracked controllers.</dd>
 
-  <dt>viewerSpace</dt>
-  <dd>TBD</dd>
+  <dt>renderState</dt>
+  <dd>Returns an <a href="xrrenderstate">XRRenderState</a> object, which provides information about the user's environment.</dd>
 </dl>
 
 ### Events
@@ -30,8 +30,8 @@ The **`XRSession`** interface of the WebXR API provides the means to interact wi
   <dt>onend</dt>
   <dd>An <a href="xrsessionevent">XRSessionEvent</a> indicating that presentation to the AR/VR device has stopped.</dd>
 
-  <dt>oninputsourcechange</dt>
-  <dd>TBD</dd>
+  <dt>oninputsourceschange</dt>
+  <dd>An <a href="xrsessionevent">XRSessionEvent</a> indicating that the session's list of active input sources has changed.</dd>
 
   <dt>onfocus</dt>
   <dd>An <a href="xrsessionevent">XRSessionEvent</a> indicating that the presentation to the display was resumed by the user agent, operating system, or AR/VR hardware.</dd>
@@ -55,9 +55,6 @@ The **`XRSession`** interface of the WebXR API provides the means to interact wi
   <dt>end()</dt>
   <dd>Returns an empty \{\{jsxref("Promise")\}\} that ends the presentation to the device</dd>
 
-  <dt><a href="getinputsources">getinputsources()</a></dt>
-  <dd>Returns an array of <a href="xrinputsource">XRInputSource</a> objects representing tracked controllers.</dd>
-
   <dt>requestAnimationFrame()</dt>
   <dd>Tells the browser that you want to paint one frame of an animation at which time the browser will call the supplied callback function. The callback function must have the following interface.<br/><br/>
   <code>callbackFunction(time, frame)</code><br/><br/>
@@ -65,7 +62,8 @@ The **`XRSession`** interface of the WebXR API provides the means to interact wi
   </dd>
 
   <dt>requestReferenceSpace()</dt>
-  <dd>TBD</dd>
+  <dd>Returns an instance of <a href="xrreferencespace">XRReferenceSpace</a> which indicates the current session tracking behavior. 
+  </dd>
 
   <dt>updateRenderState()</dt>
   <dd>TBD</dd>

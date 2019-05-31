@@ -1,22 +1,24 @@
-# XRInputSourceEvent
+# XRInputSourceArray
 
-The **`XRInputSourceEvent`** interface of the of the WebXR API 
+The **`XRInputSourceArray`** interface of the of the WebXR API 
 
 ## Constructor
 
 <dl>
-  <dt>XRInputSourceEvent</dt>
+  <dt>XRInputSourceArray()</dt>
   <dd>TBD</dd>
 </dl>
 
 ## Properties
 
 <dl>
-  <dt>buttonIndex</dt>
+  <dt>entries</dt>
   <dd>TBD</dd>
-  <dt>frame</dt>
+  <dt>Keys</dt>
   <dd>TBD</dd>
-  <dt>inputSource</dt>
+  <dt>length</dt>
+  <dd>TBD</dd>
+  <dt>values</dt>
   <dd>TBD</dd>
 </dl>
 
@@ -26,7 +28,10 @@ None.
 
 ## Methods
 
-None.
+<dl>
+  <dt>forEach()</dt>
+  <dd>TBD</dd>
+</dl>
 
 ## Specifications
 

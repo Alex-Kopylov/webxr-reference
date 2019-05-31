@@ -12,19 +12,19 @@ The **`XRWebGLLayer`** interface of the WebXR API is an <a href="xrlayer">XRLaye
 ## Properties
 
 <dl>
-  <dt>context</dt>
-  <dd>Returns an instance of <a href="xrwebglrenderingcontext">XRWebGLRenderingContext</a> which will be either a <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext">WebGLRenderingContext</a> or a <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext">WebGL2RenderingContext</a> object.</dd>
-
   <dt>antialias \{\{readonlyinline\}\}</dt>
   <dd>Indicates whether the current layer supports antialiasing which helps smooth an image by reducing its jagged edges.</dd>
+
+  <dt>context</dt>
+  <dd>Returns an instance of <a href="xrwebglrenderingcontext">XRWebGLRenderingContext</a> which will be either a <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext">WebGLRenderingContext</a> or a <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext">WebGL2RenderingContext</a> object.</dd>
 
   <dt>framebuffer \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
 
-  <dt>framebufferWidth \{\{readonlyinline\}\}</dt>
+  <dt>framebufferHeight \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
 
-  <dt>framebufferHeight \{\{readonlyinline\}\}</dt>
+  <dt>framebufferWidth \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
 
   <dt>ignoreDepthValue \{\{readonlyinline\}\}</dt>
@@ -34,14 +34,12 @@ The **`XRWebGLLayer`** interface of the WebXR API is an <a href="xrlayer">XRLaye
 ## Methods
 
 <dl>
-  <dt>getViewport</dt>
+  <dt>getViewport()</dt>
   <dd>TBD</dd>
 
   <dt>getNativeFramebufferScaleFactor()</dt>
   <dd>For a specified <a href="xrsession">XRSession</a> object, returns the value that it's recommended WebGL frame buffer resolution must be multiplied by to yield it's native WebGL frame buffer resolution.</dd>
 
-  <dt>requestViewportScaling()</dt>
-  <dd>Requests of resize of XRViewpoint by a supplied value that must between 0.0 and 1.0. Not all user agents will honor the scaling request. Consequently, you should query viewport values on each XR frame.</dd>
 </dl>
 
 ## Examples

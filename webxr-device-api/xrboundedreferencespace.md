@@ -5,16 +5,13 @@ The **`XRBoundedReferenceSpace`** interface of the WebXR Device API provides
 ## Properties
 
 <dl>
-  <dt>TBD</dt>
+  <dt>boundsGeometry</dt>
   <dd>TBD</dd>
 </dl>
 
 ## Methods
 
-<dl>
-  <dt>TBD()</dt>
-  <dd>TBD</dd>
-</dl>
+None.
 
 ## Examples
 
