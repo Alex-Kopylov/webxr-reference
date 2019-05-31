@@ -1,6 +1,6 @@
 # XRRenderState
 
-The **`XRRenderState`** interface of the WebXR API provides 
+The **`XRRenderState`** interface of the WebXR API provides information about the user's environment.
 
 ## Properties
 

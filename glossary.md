@@ -33,6 +33,9 @@
   <dt>matrix</dt>
   <dd>TBD</dd>
 
+  <dt>native origin</dt>
+  <dd>A coordinate system where the positive x coordinate is to the right, the positive y coordinate is up and negative z is forward.</dd>
+
   <dt>near depth</dt>
   <dd>The plane of the <a href="#viewing-frustum">viewing frustum</a> closest to the eye.</dd>
 
@@ -50,6 +53,9 @@
 
   <dt>pose matrix</dt>
   <dd>A a 4 by 4 matrix stored in a Float32Array in column major order that defines the orientation and position of a device in 3D space.</dd>
+
+  <dt>reference space</dt>
+  <dd>An XR space with a spatial relationship to the user's physical environment.</dd>
 
   <dt>room scale</dt>
   <dd>See <a href="#stage">stage</a>.</dd>
@@ -75,4 +81,7 @@
 
   <dt>view matrix</dt>
   <dd>A transform that describes the position and orientation of a view.</dd>
+
+  <dt>XR device</dt>
+  <dd>A physical unit of hardware that presents imagery to a user. On desktop clients this is usually a headset peripheral. On mobile clients, it may represent the mobile device with a viewer harness.</dd>
 </dl>
