@@ -3,8 +3,6 @@
 **Note to reviewers:** Glossaries are not meant to provide full discussions of the concepts they define. They are intended to provide short, quick definitions for deciphering more complex content.
 
 <dl>
-  <dt>immersive session</dt>
-  <dd>A presentation in which content is presented directly to the device such as a headset.</dd>
 
   <dt>eye-level</dt>
   <dd>A room-scale frame of reference in which the coordinates' origin is the viewer's head.</dd>
@@ -23,6 +21,9 @@
 
   <dt>head-model</dt>
   <dd>An orientation-only frame of reference in which the origin of the coordinate system is approximately the location of the viewer's head and does not change if the viewer moves. Use a head-model frame of reference when displaying images for which it is not necessary to change orientation such as, for example, 360 photos or videos.</dd>
+
+  <dt>immersive session</dt>
+  <dd>A presentation in which content is presented directly to the device such as a headset.</dd>
 
   <dt>input pose</dt>
   <dd>The orientation and position of an input device.</dd>
@@ -45,14 +46,14 @@
   <dt>orientation-only tracking</dt>
   <dd>A type of tracking in which the device does not respond to head translation because the source material is intended to be viewed from a single vantage point. </dd>
 
-  <dt>presesentation frame</dt>
-  <dd>A single frame of animation in AR or VR. There are 60 presentation frames per second in AR and VR.</dd>
-
   <dt>pose</dt>
   <dd>The position and orientation of a device in 3D space. A pose is always a matrix in the form of a Float32Array whose values are relative to the current coordinate system. The WebXR API supports two types of poses: device poses and input poses.</dd>
 
   <dt>pose matrix</dt>
   <dd>A a 4 by 4 matrix stored in a Float32Array in column major order that defines the orientation and position of a device in 3D space.</dd>
+
+  <dt>presesentation frame</dt>
+  <dd>A single frame of animation in AR or VR. There are 60 presentation frames per second in AR and VR.</dd>
 
   <dt>reference space</dt>
   <dd>An XR space with a spatial relationship to the user's physical environment.</dd>
@@ -73,11 +74,11 @@
   <dt>transform</dt>
   <dd>An operation performed on a pose's coordinates to position or orient it. </dd>
 
-  <dt id="viewing-frustum">viewing frustum</dt>
-  <dd>The portion of a modeled 3D space that is visible to the eye. A frustum has the shape of a pyramid with the sliced-off top, where the narrow portion is closest to the eye. The top and the bottom of the pyramid are called the <em>near depth</em> and the <em>far depth</em>. The viewing frustum is sometimes called the field of view.</dd>
-
   <dt>view</dt>
   <dd>A display or a portion of a display used by a device to present imagery to the user.</dd>
+
+  <dt id="viewing-frustum">viewing frustum</dt>
+  <dd>The portion of a modeled 3D space that is visible to the eye. A frustum has the shape of a pyramid with the sliced-off top, where the narrow portion is closest to the eye. The top and the bottom of the pyramid are called the <em>near depth</em> and the <em>far depth</em>. The viewing frustum is sometimes called the field of view.</dd>
 
   <dt>view matrix</dt>
   <dd>A transform that describes the position and orientation of a view.</dd>
