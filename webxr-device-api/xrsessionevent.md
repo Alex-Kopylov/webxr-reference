@@ -12,7 +12,7 @@ The **`XRSessionEvent`** interface of the of the WebXR API is the event type pas
 ## Properties
 
 <dl>
-  <dt>session</dt>
+  <dt>session \{\{readonlyinline\}\}</dt>
   <dd>Returns a reference to the `XRSession` object on which the event ocurred.</dd>
 </dl>
 
@@ -22,7 +22,7 @@ None.
 
 ## Specifications
 
-[XRSessionEvent Interface](https://www.w3.org/TR/webxr/#xrsessionevent-interface)
+[XRSessionEvent Interface](https://immersive-web.github.io/webxr/#xrsessionevent-interface)
 
 ## Browser Compatibility
 

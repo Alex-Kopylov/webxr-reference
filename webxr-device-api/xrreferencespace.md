@@ -26,7 +26,7 @@ None.
 
 ## Specifications
 
-[XRReferenceSpace Interface](https://www.w3.org/TR/webxr/#xrreferencespace-interface)
+[XRReferenceSpace Interface](https://immersive-web.github.io/webxr/#xrreferencespace-interface)
 
 ## Browser Compatibility
 

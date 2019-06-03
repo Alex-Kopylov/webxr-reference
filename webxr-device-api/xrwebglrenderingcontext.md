@@ -4,7 +4,7 @@ TBD
 
 # Specifications
 
-[XRWebGLRenderingContext Interface](https://www.w3.org/TR/webxr/#typedefdef-xrwebglrenderingcontext)
+[XRWebGLRenderingContext Interface](https://immersive-web.github.io/webxr/#xrwebgllayer-interface)
 
 ## Browser Compatibility
 

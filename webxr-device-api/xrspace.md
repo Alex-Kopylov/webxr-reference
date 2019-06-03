@@ -16,7 +16,7 @@ None.
 
 ## Specifications
 
-[XRFrame Interface](https://www.w3.org/TR/webxr/#xrspace-interface)
+[XRFrame Interface](https://immersive-web.github.io/webxr/#xrspace-interface)
 
 ## Browser Compatibility
 

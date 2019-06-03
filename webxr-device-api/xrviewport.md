@@ -5,13 +5,13 @@ The **`XRViewport`** interface of the of the WebXR API describes a viewport, or 
 ## Properties
 
 <dl>
-  <dt>x</dt>
+  <dt>x \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
-  <dt>y</dt>
+  <dt>y \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
-  <dt>width</dt>
+  <dt>width \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
-  <dt>height</dt>
+  <dt>height \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
 </dl>
 
@@ -21,7 +21,7 @@ None.
 
 ## Specifications
 
-[XRViewport Interface](https://www.w3.org/TR/webxr/#xrviewport-interface)
+[XRViewport Interface](https://immersive-web.github.io/webxr/#xrviewport-interface)
 
 ## Browser Compatibility
 

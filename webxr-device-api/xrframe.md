@@ -7,7 +7,7 @@ An instance of this object is passed to each call of the callback provided to `X
 ## Properties
 
 <dl>
-  <dt>session</dt>
+  <dt>session \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
 </dl>
 
@@ -34,7 +34,7 @@ function onFrame(time, frame) {
 
 ## Specifications
 
-[XRFrame Interface](https://www.w3.org/TR/webxr/#xrframe-interface)
+[XRFrame Interface](https://immersive-web.github.io/webxr/#xrframe-interface)
 
 ## Browser Compatibility
 

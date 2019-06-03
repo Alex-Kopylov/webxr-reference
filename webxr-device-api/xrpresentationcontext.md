@@ -23,7 +23,7 @@ The following example uses an instance of `XRPresentationContext` to query an XR
 
 # Specifications
 
-[XRPresentationContext Interface](https://www.w3.org/TR/webxr/#xrpresentationcontext-interface)
+[XRPresentationContext Interface](https://immersive-web.github.io/webxr/#xrpresentationcontext-interface)
 
 ## Browser Compatibility
 

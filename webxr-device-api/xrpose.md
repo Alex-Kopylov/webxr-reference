@@ -5,7 +5,7 @@ The **`XRPose`** interface of the of the WebXR API
 ## Properties
 
 <dl>
-  <dt>emulatedPosition</dt>
+  <dt>emulatedPosition \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
   <dt>transform</dt>
   <dd>TBD</dd>
@@ -21,7 +21,7 @@ None.
 
 ## Specifications
 
-[XRPose Interface](https://www.w3.org/TR/webxr/#xrpose-interface)
+[XRPose Interface](https://immersive-web.github.io/webxr/#xrpose-interface)
 
 ## Browser Compatibility
 

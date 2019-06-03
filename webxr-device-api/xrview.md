@@ -7,9 +7,9 @@ The **`XRView`** interface of the of the WebXR API describes a single view into 
 <dl>
   <dt>eye</dt>
   <dd>TBD</dd>
-  <dt>projectionMatrix</dt>
+  <dt>projectionMatrix \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
-  <dt>transform</dt>
+  <dt>transform \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
 </dl>
 
@@ -19,7 +19,7 @@ None.
 
 ## Specifications
 
-[XRView Interface](https://www.w3.org/TR/webxr/#xrview-interface)
+[XRView Interface](https://immersive-web.github.io/webxr/#xrview-interface)
 
 ## Browser Compatibility
 

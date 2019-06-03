@@ -50,7 +50,7 @@ navigator.xr.addEventListener('devicechange', () => {
 
 ## Specifications
 
-[XR Interface](https://www.w3.org/TR/webxr/#xr-interface)
+[XR Interface](https://immersive-web.github.io/webxr/#xr-interface)
 
 ## Browser Compatibility
 

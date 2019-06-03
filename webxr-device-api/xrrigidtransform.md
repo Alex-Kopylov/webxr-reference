@@ -12,13 +12,13 @@ The **`XRRigidTransform`** interface of the of the WebXR API
 ## Properties
 
 <dl>
-  <dt>inverse</dt>
+  <dt>inverse \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
-  <dt>matrix</dt>
+  <dt>matrix \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
-  <dt>orientation</dt>
+  <dt>orientation \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
-  <dt>position</dt>
+  <dt>position \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
 </dl>
 
@@ -32,7 +32,7 @@ None.
 
 ## Specifications
 
-[XRRigidTransform Interface](https://www.w3.org/TR/webxr/#xrrigidtransform-interface)
+[XRRigidTransform Interface](https://immersive-web.github.io/webxr/#xrrigidtransform-interface)
 
 ## Browser Compatibility
 

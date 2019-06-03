@@ -5,7 +5,7 @@ The **`XRBoundedReferenceSpace`** interface of the WebXR Device API provides
 ## Properties
 
 <dl>
-  <dt>boundsGeometry</dt>
+  <dt>boundsGeometry \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
 </dl>
 
@@ -19,7 +19,7 @@ None.
 
 ## Specifications
 
-[XRReferenceSpace Interface](https://www.w3.org/TR/webxr/#xrboundedreferencespace-interface)
+[XRReferenceSpace Interface](https://immersive-web.github.io/webxr/#xrboundedreferencespace-interface)
 
 ## Browser Compatibility
 

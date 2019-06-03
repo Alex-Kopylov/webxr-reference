@@ -5,19 +5,19 @@ The **`XRRenderState`** interface of the WebXR API provides information about th
 ## Properties
 
 <dl>
-  <dt>baseLayer</dt>
+  <dt>baseLayer \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
 
-  <dt>depthFar</dt>
+  <dt>depthFar \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
 
-  <dt>depthNear</dt>
+  <dt>depthNear \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
 
-  <dt>inlineVerticalFiledOfView</dt>
+  <dt>inlineVerticalFiledOfView \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
 
-  <dt>outputContext</dt>
+  <dt>outputContext \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
 </dl>
 
@@ -35,7 +35,7 @@ None.
 
 ## Specifications
 
-[XRRenderState Interface](https://www.w3.org/TR/webxr/#xrrenderstate-interface)
+[XRRenderState Interface](https://immersive-web.github.io/webxr/#xrrenderstate-interface)
 
 ## Browser Compatibility
 

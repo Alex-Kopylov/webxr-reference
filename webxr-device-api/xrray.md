@@ -12,11 +12,11 @@ The **`XRRay`** interface of the of the WebXR API
 ## Properties
 
 <dl>
-  <dt>direction</dt>
+  <dt>direction \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
-  <dt>matrix</dt>
+  <dt>matrix \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
-  <dt>origin</dt>
+  <dt>origin \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
 </dl>
 
@@ -30,7 +30,7 @@ None.
 
 ## Specifications
 
-[XRRay Interface](https://www.w3.org/TR/webxr/#xrrigidtransform-interface)
+[XRRay Interface](https://immersive-web.github.io/webxr/#xrray-interface)
 
 ## Browser Compatibility
 

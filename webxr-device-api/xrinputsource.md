@@ -5,13 +5,13 @@ The **`XRInputSource`** interface of the of the WebXR API returns information ab
 ## Properties
 
 <dl>
-  <dt>gamepad</dt>
+  <dt>gamepad \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
-  <dt>gripSpace</dt>
+  <dt>gripSpace \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
   <dt>handedness</dt>
   <dd>One of <code>"left"</code>, <code>"right"</code>, or <code>""</code> (empty string).</dd>
-  <dt>targetRayMode</dt>
+  <dt>targetRayMode \{\{readonlyinline\}\}</dt>
   <dd>One of <code>"gazing"</code>, <code>"pointing"</code>, or <code>"tapping"</code></dd>
   <dt>targetRaySpace</dt>
   <dd>TBD</dd>
@@ -31,7 +31,7 @@ The following example taken from Immersive Web's [input tracking sample](https:/
 
 # Specifications
 
-[XRInputSource Interface](https://www.w3.org/TR/webxr/#xrinputsourceevent-interface)
+[XRInputSource Interface](https://immersive-web.github.io/webxr/#xrinputsource-interface)
 
 ## Browser Compatibility
 

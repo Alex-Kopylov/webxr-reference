@@ -5,18 +5,18 @@ The **`XRInputSourceEvent`** interface of the of the WebXR API
 ## Constructor
 
 <dl>
-  <dt>XRInputSourceEvent</dt>
+  <dt>XRInputSourceEvent()</dt>
   <dd>TBD</dd>
 </dl>
 
 ## Properties
 
 <dl>
-  <dt>buttonIndex</dt>
+  <dt>buttonIndex \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
-  <dt>frame</dt>
+  <dt>frame \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
-  <dt>inputSource</dt>
+  <dt>inputSource \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
 </dl>
 
@@ -30,7 +30,7 @@ None.
 
 ## Specifications
 
-[XRInputSourceEvent Interface](https://www.w3.org/TR/webxr/#xrinputsourceevent-interface)
+[XRInputSourceEvent Interface](https://immersive-web.github.io/webxr/#xrinputsourceevent-interface)
 
 ## Browser Compatibility
 

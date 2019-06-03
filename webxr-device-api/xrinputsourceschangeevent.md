@@ -5,18 +5,18 @@ The **`XRInputSourcesChangeEvent`** interface of the of the WebXR API
 ## Constructor
 
 <dl>
-  <dt>XRInputSourcesChangeEvent</dt>
+  <dt>XRInputSourcesChangeEvent()</dt>
   <dd>TBD</dd>
 </dl>
 
 ## Properties
 
 <dl>
-  <dt>added</dt>
+  <dt>added \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
-  <dt>removed</dt>
+  <dt>removed \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
-  <dt>session</dt>
+  <dt>session \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
 </dl>
 

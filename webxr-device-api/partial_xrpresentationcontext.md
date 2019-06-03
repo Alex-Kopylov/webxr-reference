@@ -11,7 +11,7 @@ The following addition will be made to the [appropriate MDN page](https://develo
 
 ## Specifications
 
-[window.XRPresentationContext Interface](hhttps://www.w3.org/TR/webxr/#xrpresentationcontext-interface)
+[window.XRPresentationContext Interface](hhttps://immersive-web.github.io/webxr/#contextcompatibility)
 
 ## Browser Compatibility
 

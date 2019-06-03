@@ -16,7 +16,7 @@ See its child class, <a href="xrwebgllayer">XRWebGLLayer</a> for an example of u
 
 # Specifications
 
-[XRLayer Interface](https://www.w3.org/TR/webxr/#xrlayer-interface)
+[XRLayer Interface](https://immersive-web.github.io/webxr/#xrlayer-interface)
 
 ## Browser Compatibility
 

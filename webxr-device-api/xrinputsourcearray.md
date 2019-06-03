@@ -16,7 +16,7 @@ The **`XRInputSourceArray`** interface of the of the WebXR API
   <dd>TBD</dd>
   <dt>Keys</dt>
   <dd>TBD</dd>
-  <dt>length</dt>
+  <dt>length \{\{readonlyinline\}\}</dt>
   <dd>TBD</dd>
   <dt>values</dt>
   <dd>TBD</dd>
@@ -35,7 +35,7 @@ None.
 
 ## Specifications
 
-[XRInputSourceEvent Interface](https://www.w3.org/TR/webxr/#xrinputsourceevent-interface)
+[XRInputSourceEvent Interface](https://immersive-web.github.io/webxr/#xrinputsourcearray-interface)
 
 ## Browser Compatibility
 

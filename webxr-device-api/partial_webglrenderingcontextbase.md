@@ -14,7 +14,7 @@ The **`makeXRCompatible()`** method of the of the `WebGLRenderingContextBase` in
 
 ## Specifications
 
-[makeXRCompatible() method](https://www.w3.org/TR/webxr/#contextcompatibility)
+[makeXRCompatible() method](https://immersive-web.github.io/webxr/#contextcompatibility)
 
 ## Browser Compatibility
 

@@ -14,10 +14,10 @@ The **`XRSession`** interface of the WebXR API provides the means to interact wi
   </ul>
   </dd>
 
-  <dt><a href="getinputsources">inputSources</a></dt>
+  <dt><a href="getinputsources">inputSources</a> \{\{readonlyinline\}\}</dt>
   <dd>Returns an <a href="xrinputsource">XRInputSourceArray</a> object representing tracked controllers.</dd>
 
-  <dt>renderState</dt>
+  <dt>renderState \{\{readonlyinline\}\}</dt>
   <dd>Returns an <a href="xrrenderstate">XRRenderState</a> object, which provides information about the user's environment.</dd>
 </dl>
 
@@ -89,7 +89,7 @@ The process for creating an immersive session is a little more complex because e
 
 ## Specifications
 
-[XRSession Interface](https://www.w3.org/TR/webxr/#xrsession-interface)
+[XRSession Interface](https://immersive-web.github.io/webxr/#xrsession-interface)
 
 ## Browser Compatibility
 

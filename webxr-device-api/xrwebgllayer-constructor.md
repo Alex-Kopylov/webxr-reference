@@ -28,7 +28,7 @@ The <strong><code>XRWebGLLayer</code></strong> constructor creates a new {{domxr
 
 ## Specifications
 
-[XRWebGLLayer Interface](https://www.w3.org/TR/webxr/#xrwebgllayer-interface)
+[XRWebGLLayer Interface](https://immersive-web.github.io/webxr/#dom-xrwebgllayer-xrwebgllayer)
 
 ## Browser Compatibility
 

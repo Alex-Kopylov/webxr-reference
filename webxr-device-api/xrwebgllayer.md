@@ -69,7 +69,7 @@ xrDevice.requestSession(sessionOptions)
 
 ## Specifications
 
-[XRWebGLLayer Interface](https://www.w3.org/TR/webxr/#xrwebgllayer-interface)
+[XRWebGLLayer Interface](https://immersive-web.github.io/webxr/#xrwebgllayer-interface)
 
 ## Browser Compatibility
 
