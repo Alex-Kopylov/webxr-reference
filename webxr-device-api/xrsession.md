@@ -1,6 +1,6 @@
 # XRSession
 
-The **`XRSession`** interface of the WebXR API provides the means to interact with an AR/VR device, providing features such as polling the viewer space (device pose), getting information about the user's environment, and presenting imagery to the user.
+The **`XRSession`** interface of the WebXR API provides the means to interact with an AR/VR device, providing features such as polling the viewer space (viewer pose), getting information about the user's environment, and presenting imagery to the user. To get an <code>XRSession</code> call <code><a href="xr">XR.requestSession()</a></code>.
 
 ## Properties
 
@@ -58,7 +58,7 @@ The **`XRSession`** interface of the WebXR API provides the means to interact wi
   <dt>requestAnimationFrame()</dt>
   <dd>Tells the browser that you want to paint one frame of an animation at which time the browser will call the supplied callback function. The callback function must have the following interface.<br/><br/>
   <code>callbackFunction(time, frame)</code><br/><br/>
-  Note that the <code>time</code> parameter is provided for <code>window.requestAnimationFrame()</code> and will always be <code>0</code>.
+  Note that the <code>time</code> parameter is provided for <code>window.requestAnimationFrame()</code> and will always be <code>0</code>. <code>frame</code> is a reference to an <code><a href="xrframe">XRFrame</a></code> instance.
   </dd>
 
   <dt>requestReferenceSpace()</dt>
@@ -66,7 +66,14 @@ The **`XRSession`** interface of the WebXR API provides the means to interact wi
   </dd>
 
   <dt>updateRenderState()</dt>
-  <dd>TBD</dd>
+  <dd>Updates the environment information by passing an object with any of the following values:
+  <ul>
+    <li><code>baseLayer</code>: An <code><a href="xrlayer">XRLayer</a></code> instance that is the source of bitmap images and a description of how the image is to be rendered in the device.</li>
+    <li><code>depthFar</code>: The distance in meters of the far clip plane from the viewer.</li>
+    <li><code>depthNear</code>: The distance in meters of the near clip plane from the viewer. </li>
+    <li><code>inlineVerticalFieldOfView</code>: Defines the angle of the field of view in radians used when computing projection matrices for an `inline` `XRSession` objects. This option must be `null` for immersive sessions.</li>
+  </ul>
+  </dd>
 </dl>
 
 ## Examples
