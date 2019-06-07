@@ -37,15 +37,31 @@ None.
 
 ## Examples
 
-The following example uses the `ondevicechange` event to discover when a new device is available, then calls `requestDevice()` to retrieve it.
+The following example shows how to use both `supportsSession()` and `requestSession()`. First it checks to see if WebXR is available. Next it calls `supportsSession()`, passing it the desired session option before enabling controls for entering XR. Adding controls is a necessary step because entering XR requires a user action. Finally the `onButtonClicked()` method calls `requestSession()` using the same session option passed to `supportsSession()`.
 
 ```javascript
-navigator.xr.addEventListener('devicechange', () => {
-  navigator.xr.requestDevice()
-  .then(device => {
-    // device is of type XRDevice. Use it to get an XRSession object.
+if (navigator.xr) {
+  navigator.xr.supportsSession('immersive-vr')
+  .then(() => {
+    userButton.addEventListener('click', onButtonClicked);
+    userButton.innerHTML = 'Enter XR';
+    userButton.disabled = false;
   });
-});
+}
+
+function onButtonClicked() {
+  if (!xrSession) {
+    navigator.xr.requestSession('immersive-vr')
+    .then(() => {
+      // onSessionStarted() not shown for reasons of brevity and clarity.
+      onSessionStarted(xrSession);
+    });
+  } else {
+    // Button is a toggle button.
+    xrSession.end();
+  }
+}
+
 ```
 
 ## Specifications
